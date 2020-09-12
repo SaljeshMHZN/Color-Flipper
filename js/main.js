@@ -1,13 +1,13 @@
 const colors = [
-  'green',
-  'yellow',
-  'blue',
-  'skyblue',
-  'red',
-  'orange',
-  'purple',
-  'brown',
-  'pink',
+  'Green',
+  'Yellow',
+  'Blue',
+  'Skyblue',
+  'Red',
+  'Orange',
+  'Purple',
+  'Brown',
+  'Pink',
 ];
 const btn = document.getElementById('btn');
 const color = document.querySelector('.color');

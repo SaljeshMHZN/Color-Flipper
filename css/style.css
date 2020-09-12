@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  font-family: cursive;
+}
+
 .nav-center {
   background-color: white;
   box-shadow: 2px 2px 10px grey;
@@ -17,7 +21,6 @@
 h4 {
   font-size: 1.4rem;
   text-transform: uppercase;
-  font-family: cursive;
   color: rgb(9, 62, 80);
 }
 ul {
