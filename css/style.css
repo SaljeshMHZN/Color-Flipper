@@ -3,6 +3,15 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  display: none;
+}
+
+body {
+  font-family: cursive;
 }
 
 .nav-center {
@@ -17,7 +26,6 @@
 h4 {
   font-size: 1.4rem;
   text-transform: uppercase;
-  font-family: cursive;
   color: rgb(9, 62, 80);
 }
 ul {
@@ -51,7 +59,7 @@ main {
 h2 {
   background-color: gainsboro;
   padding: 30px;
-  border-radius: 0.8rem;
+  border-radius: 0.5rem;
   margin-bottom: 30px;
 }
 
@@ -60,10 +68,11 @@ h2 {
   background: transparent;
   padding: 0.375rem 0.75rem;
   display: inline-block;
-  border-radius: 0.5rem;
+  border-radius: 5px;
   margin-left: 120px;
   outline: none;
   border: 2px solid black;
+  transition: all 0.3s ease-in-out;
 }
 .btn:hover {
   background: white;
